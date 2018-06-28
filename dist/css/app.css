@@ -1,0 +1,182 @@
+body, p, h1, h2, h3, h4, h5, h6, ul, li, img {
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #666;
+  font-size: 14px; }
+
+.clearfix {
+  *zoom: 1; }
+  .clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+ul, li {
+  list-style: none; }
+
+a, a:hover {
+  text-decoration: none; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.hide {
+  display: none; }
+
+.container {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #f65557; }
+
+.playerHeader {
+  height: 50px;
+  border: 1px solid #ddd;
+  background: #eee;
+  line-height: 50px;
+  margin: 20px; }
+  .playerHeader img {
+    float: left;
+    margin: 5px 10px 0 0; }
+
+.player-page {
+  margin: 20px; }
+  .player-page .music-info {
+    float: left;
+    width: 600px; }
+  .player-page .music-cover {
+    float: right; }
+  .player-page .music-title,
+  .player-page .music-artist,
+  .player-page .music-time {
+    margin: 0 0 5px 0; }
+  .player-page .caption {
+    display: inline-block;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid green;
+    margin: 0 0 20px 0; }
+    .player-page .caption a {
+      color: green; }
+  .player-page .music-volume {
+    margin: 0 0 5px 0; }
+    .player-page .music-volume p {
+      float: left; }
+    .player-page .music-volume .playerProgress {
+      float: left;
+      width: 60px;
+      margin: 8px 0 0 0; }
+  .player-page .music-progress {
+    margin: 0 0 5px 0; }
+    .player-page .music-progress p {
+      float: left; }
+    .player-page .music-progress .playerProgress {
+      float: left;
+      width: 200px;
+      margin: 8px 0 0 0; }
+  .player-page .isPlay span {
+    float: left;
+    margin: 0 10px; }
+
+.music-list li {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #eee;
+  padding: 0 10px; }
+  .music-list li .name, .music-list li .del {
+    cursor: pointer; }
+
+.focus {
+  color: green; }
+
+.playerProgress {
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+  border-radius: 3px;
+  cursor: pointer; }
+  .playerProgress .progress {
+    width: 0%;
+    height: 3px;
+    background: green; }
+
+.header {
+  margin: 20px; }
+
+.single-list {
+  margin: 20px; }
+  .single-list ul {
+    background: #eee; }
+  .single-list li {
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer; }
+    .single-list li.active {
+      background: #FFEC76;
+      color: #fff; }
+
+.listContent {
+  border: 1px solid #eee;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  line-height: 30px; }
+
+.inputBox {
+  margin: 20px; }
+  .inputBox input {
+    float: left;
+    width: 198px;
+    border: 1px solid #ddd;
+    height: 22px;
+    line-height: 22px;
+    padding: 3px;
+    margin: 0 10px 0 0; }
+  .inputBox .icon-add {
+    float: left;
+    border-radius: 3px;
+    background: #FF93AD;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center; }
+
+.todolist {
+  margin: 30px 20px; }
+  .todolist p {
+    background: #FFBC52;
+    margin: 0 0 15px 0;
+    color: #fff;
+    padding: 5px 10px; }
+    .todolist p .name {
+      float: left; }
+    .todolist p .icon-del {
+      float: right;
+      color: #fff; }
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 680px; }
+
+.imagesList {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.nav {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  z-index: 101;
+  width: 100%;
+  text-align: center; }
