@@ -10,14 +10,15 @@ import Todolist from './todolist/index.js';
 import Round from './round/index';
 import Color from './color/index';
 import Photos from './photos/index';
+import Xs from './xiaoshu/index';
 import '../sass/index.scss';
 
 
 //redux
-import { Provider } from 'react-redux';
+/*import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import todoApp from './redux/reducer';
-import App from './redux/components/index';
+import App from './redux/components/index';*/
 
 // class ReactClass extends Component {
 // 	constructor(props) {
@@ -74,10 +75,8 @@ import App from './redux/components/index';
 // <Round />, 圆形
 // <Color />, 颜色
 // <Photos />, 相册
-let store = createStore(todoApp)
+//let store = createStore(todoApp)
 ReactDOM.render(
-	<Provider store={store}>
-		<App />
-	</Provider>,
+	<Xs cont="very" />,
 	document.getElementById('root')
 );
